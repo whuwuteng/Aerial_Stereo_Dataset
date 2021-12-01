@@ -15,7 +15,7 @@ For photogrammetry community, as far as we know, it is not easy to find these tr
 For each dataset, the global information of the dataset is listed follow:
 
 
-|     Dataset      | Color | GSD(cm) | LiDAR(<img src="https://render.githubusercontent.com/render/math?math=pt/m^2">) |Quality|
+|     Dataset      | Color | GSD(cm) | LiDAR(<img src="https://render.githubusercontent.com/render/math?math=\large pt/m^2">) |Quality|
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |
 |ISPRS-Vaihingen|IR-R-G|      8      |      6.7      | ++++ |
 |EuroSDR-Vaihingen|R-G-B|      20      |      6.7      | +++ |
@@ -24,8 +24,11 @@ For each dataset, the global information of the dataset is listed follow:
 |Enschede|R-G-B|      10      |      10      |+++ |
 |DublinCity|R-G-B|      3.4      |      250-348      |++ |
 
+In the table, the quality is according to the data accuracy, dataset size. 
 
+### Dataset structure
 
+The training and evluation dataset is also provided, the structure of the folder is 
 
 
 ## TODO
