@@ -15,7 +15,7 @@ For photogrammetry community, as far as we know, it is not easy to find these tr
 For each dataset, we .
 
 
-|     Dataset      | Color | GSD(cm) | LiDAR($ pt/m^2 $ ) |Quality|
+|     Dataset      | Color | GSD(cm) | $LiDAR(pt/m^2)$ |Quality|
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |
 |ISPRS-Vaihingen|IR-R-G|      8      |      6.7      | ++++ |
 |EuroSDR-Vaihingen|R-G-B|      20      |      6.7      | +++ |
