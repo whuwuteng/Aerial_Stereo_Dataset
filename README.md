@@ -12,10 +12,10 @@ For photogrammetry community, as far as we know, it is not easy to find these tr
 
 ### Global information of dataset
 
-For each dataset, we .
+For each dataset, the global information of the dataset is listed follow:
 
 
-|     Dataset      | Color | GSD(cm) | $LiDAR(pt/m^2)$ |Quality|
+|     Dataset      | Color | GSD(cm) | LiDAR(<img src="https://render.githubusercontent.com/render/math?math=pt/m^2">) |Quality|
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: |
 |ISPRS-Vaihingen|IR-R-G|      8      |      6.7      | ++++ |
 |EuroSDR-Vaihingen|R-G-B|      20      |      6.7      | +++ |
