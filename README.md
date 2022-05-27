@@ -33,8 +33,10 @@ The training and evluation dataset is also provided, the structure of the folder
 
 ## TODO
 
+- [x] Image-LiDAR process
+- [ ] Publish dataset V1
 - [ ] Five cameras process
-- [ ] LiDAR process
+
 
 ### Citation
 
