@@ -2,11 +2,13 @@
 
 This is the Github repository for the stereo dense matching benchmark hosted at [AI4GEO project](http://ai4geo.eu/index.php). 
 
-In order to discuss the transferability of deep learning methods on aerial dataset, we produce **6** aerial dataset covers **4** different area.
+In order to discuss the transferability of deep learning methods on aerial dataset, we produce **6** aerial dataset covers **4** different area. 
+
+This work is an extension of our [previous work](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2021/405/2021/), and the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021) dataset is already published.
 
 ## ISPRS Congress 2022
 
-In the [ISPRS Conress 2022](https://www.isprs2022-nice.com/), we will present this work, the [slide](Poster_ISPRS2022.pdf) and the [poster](Poster_ISPRS2022.pdf) is provided.
+In the [ISPRS Conress 2022](https://www.isprs2022-nice.com/), we will present this work, and the [slide](Poster_ISPRS2022.pdf) and the [poster](Poster_ISPRS2022.pdf) is provided.
 
 
 ## Introduction
@@ -31,7 +33,7 @@ For each dataset, the global information of the dataset is listed follow:
 |Enschede|R-G-B|      10      |      10      |`x` |&#9745;|
 |DublinCity|R-G-B|      3.4      |      250-348      |`x` |&#9745;|
 
-In the table, the origin orientation accuracy  influence the data accuracy, dataset size. 
+In the table, the origin orientation accuracy  influence the data accuracy, in order to improve the quality of the dataset, an ICP based Image-LiDAR is proposed to refine the orientation. 
 
 ### Dataset structure
 
