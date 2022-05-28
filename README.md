@@ -14,7 +14,7 @@ For photogrammetry community, as far as we know, it is not easy to find these tr
 
 For each dataset, the global information of the dataset is listed follow:
 
-;check refer to http://wfeii.com/2021/10/14/markdown-code.html
+<!-- check refer to http://wfeii.com/2021/10/14/markdown-code.html -->
 
 |     Dataset      | Color | GSD(cm) | LiDAR(<img src="https://render.githubusercontent.com/render/math?math=\large pt/m^2">) |Origin orientation|ICP refined|
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: | :----------: |
