@@ -4,6 +4,11 @@ This is the Github repository for the stereo dense matching benchmark hosted at 
 
 In order to discuss the transferability of deep learning methods on aerial dataset, we produce **6** aerial dataset covers **4** different area.
 
+## ISPRS Congress 2022
+
+In the [ISPRS Conress 2022](https://www.isprs2022-nice.com/), we will present this work, the [slide](Poster_ISPRS2022.pdf) and the [poster](Poster_ISPRS2022.pdf) is provided.
+
+
 ## Introduction
 
 For stereo dense matching, there are many famous benchmark dataset in Robust Vision, for example, [KITTI stereo](http://www.cvlibs.net/datasets/kitti/eval_scene_flow.php?benchmark=stereo) and [middlebury stereo](https://vision.middlebury.edu/stereo/).
@@ -15,6 +20,7 @@ For photogrammetry community, as far as we know, it is not easy to find these tr
 For each dataset, the global information of the dataset is listed follow:
 
 <!-- check refer to http://wfeii.com/2021/10/14/markdown-code.html -->
+<!-- comment refer to https://www.w3cschool.cn/lme/q92a1srq.html -->
 
 |     Dataset      | Color | GSD(cm) | LiDAR(<img src="https://render.githubusercontent.com/render/math?math=\large pt/m^2">) |Origin orientation|ICP refined|
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: | :----------: |
@@ -25,11 +31,11 @@ For each dataset, the global information of the dataset is listed follow:
 |Enschede|R-G-B|      10      |      10      |x |&#10004;|
 |DublinCity|R-G-B|      3.4      |      250-348      |x |&#10004;|
 
-In the table, the origin orientation quality is according to the data accuracy, dataset size. 
+In the table, the origin orientation accuracy  the data accuracy, dataset size. 
 
 ### Dataset structure
 
-The training and evluation dataset is also provided, the structure of the folder is 
+The training and evluation dataset is also provided, the structure of the folder is same with the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021).
 
 
 ## TODO
