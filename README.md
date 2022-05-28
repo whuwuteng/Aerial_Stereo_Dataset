@@ -26,12 +26,12 @@ For each dataset, the global information of the dataset is listed follow:
 | :----------: | :-----------: | :-----------: | :-----------: |:-----------: | :----------: |
 |ISPRS-Vaihingen|IR-R-G|      8      |      6.7      | &#10004; |x|
 |EuroSDR-Vaihingen|R-G-B|      20      |      6.7      | &#10004; |x|
-|Toulouse-UMBRA|R-G-B|      12.5      |      2-4      | x |&#10004;|
+|Toulouse-UMBRA|R-G-B|      12.5      |      2-4      | x |&#9745;|
 |Toulouse-Métropole|R-G-B|      5      |      8     | &#10004; |x|
-|Enschede|R-G-B|      10      |      10      |x |&#10004;|
-|DublinCity|R-G-B|      3.4      |      250-348      |x |&#10004;|
+|Enschede|R-G-B|      10      |      10      |x |&#9745;|
+|DublinCity|R-G-B|      3.4      |      250-348      |x |&#9745;|
 
-In the table, the origin orientation accuracy  the data accuracy, dataset size. 
+In the table, the origin orientation accuracy  influence the data accuracy, dataset size. 
 
 ### Dataset structure
 
