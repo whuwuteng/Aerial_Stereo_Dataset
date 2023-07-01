@@ -45,6 +45,9 @@ The training and evaluation dataset is also provided, the structure of the folde
 - [ ] Publish dataset V1
 - [ ] Publish the long paper on Arxiv
 
+## Stereo-LiDAR fusion
+
+Based on the data generation,  we also generate the Toulouse2020 data from IGN, and this data can be found in our CVPR photogrammetry and computer vision workshop paper. The Github site can be found [here](https://github.com/whuwuteng/PSMNet-FusionX3).
 
 ### Citation
 
