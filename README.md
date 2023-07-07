@@ -2,7 +2,7 @@
 
 This Github will provide the detail information of our paper (**JAG-D-23-00976**) under review on  [International Journal of Applied Earth Observation and Geoinformation](https://track.authorhub.elsevier.com/?uuid=fc239731-c1a9-4c4c-9104-bc1f55105626).
 
-This is the Github repository for the stereo dense matching benchmark hosted at [AI4GEO project](http://ai4geo.eu/index.php). 
+This is the Github repository for the stereo dense matching benchmark for [AI4GEO project](http://ai4geo.eu/index.php). 
 
 In order to discuss the transferability of deep learning methods on aerial dataset, we produce **6** aerial dataset covers **4** different area. 
 
@@ -36,13 +36,14 @@ In the table, the origin orientation accuracy  influence the data accuracy, in o
 
 The training and evaluation dataset is also provided, the structure of the folder is same with the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021).
 
-
+Because the whole dataset is  too large, so only the used in the paper is uploaded.
 
 
 ## TODO
 
 - [x] Image-LiDAR process
-- [ ] Publish dataset V1
+- [ ] Publish dataset V1 (use in the paper)
+- [ ] Publish full dataset
 - [ ] Publish the long paper on Arxiv
 
 ## Stereo-LiDAR fusion
