@@ -51,6 +51,7 @@ The pretrained models are important in the paper, so we will also share the pret
 
 - [x] Image-LiDAR process
 - [ ] Publish dataset V1 (use in the paper)
+- [ ] Publish pretrained models
 - [ ] Publish full dataset
 - [ ] Publish the long paper on Arxiv
 
