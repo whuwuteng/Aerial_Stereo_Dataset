@@ -38,6 +38,14 @@ The training and evaluation dataset is also provided, the structure of the folde
 
 Because the whole dataset is  too large, so only the used in the paper is uploaded.
 
+###  Method
+
+In the paper, we evaluate the state of the art methods of deep learning on stereo dense matching before 2020. 
+
+###  Pretrained models
+
+The pretrained models are important in the paper, so we will also share the pretrained models and training setting in the paper.
+
 
 ## TODO
 
