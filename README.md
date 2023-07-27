@@ -38,6 +38,10 @@ The training and evaluation dataset is also provided, the structure of the folde
 
 Because the whole dataset is  too large, so only the used in the paper is uploaded.
 
+### ISPRS-Vaihingen
+
+All the training and testing data can be found on [Google Drive](https://drive.google.com/file/d/1Gcap1_p13QJoF7ShLP8sEBsSY1SNRgk4/view?usp=sharing), this is a newer version compare to the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021), the using origin image and LiDAR is same with [old version](https://github.com/whuwuteng/benchmark_ISPRS2021).
+
 ###  Method
 
 In the paper, we evaluate the state of the art methods of deep learning on stereo dense matching before 2020. 
