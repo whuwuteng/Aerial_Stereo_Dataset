@@ -1,6 +1,6 @@
 # An evaluation of Deep Learning based stereo dense matching dataset shift from aerial images and a large scale stereo dataset
 
-This Github will provide the detail information of our paper (**JAG-D-23-00976**) under review on  [International Journal of Applied Earth Observation and Geoinformation](https://track.authorhub.elsevier.com/?uuid=fc239731-c1a9-4c4c-9104-bc1f55105626).
+This Github will provide the detail information of our paper [An evaluation of Deep Learning based stereo dense matching dataset shift from aerial images and a large scale stereo dataset](https://www.sciencedirect.com/science/article/pii/S1569843224000694).
 
 This is the Github repository for the stereo dense matching benchmark for [AI4GEO project](http://ai4geo.eu/index.php). 
 
