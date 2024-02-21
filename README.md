@@ -2,6 +2,8 @@
 
 This Github will provide the detail information of our paper [An evaluation of Deep Learning based stereo dense matching dataset shift from aerial images and a large scale stereo dataset](https://www.sciencedirect.com/science/article/pii/S1569843224000694).
 
+Because the length limit of [International Journal of Applied Earth Observation and Geoinformation](https://www.sciencedirect.com/journal/international-journal-of-applied-earth-observation-and-geoinformation) is 8000 words, the original paper can be found on [Arxiv](https://arxiv.org/abs/2402.12522), if you have any questions about this long version paper, please contact me.
+
 This is the Github repository for the stereo dense matching benchmark for [AI4GEO project](http://ai4geo.eu/index.php). 
 
 In order to discuss the transferability of deep learning methods on aerial dataset, we produce **6** aerial dataset covers **4** different area. 
@@ -58,7 +60,7 @@ The pretrained models are important in the paper, so we will also share the pret
 ## TODO
 
 - [x] Image-LiDAR process
-- [ ] Publish dataset V1 (use in the paper)
+- [x] Publish dataset V1 (use in the paper)
 - [ ] Publish pretrained models
 - [ ] Publish full dataset
 - [ ] Publish the long paper on Arxiv
