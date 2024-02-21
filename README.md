@@ -60,10 +60,10 @@ The pretrained models are important in the paper, so we will also share the pret
 ## TODO
 
 - [x] Image-LiDAR process
-- [x] Publish dataset V1 (use in the paper)
+- [ ] Publish dataset V1 (use in the paper)
+- [x] Publish the long paper on Arxiv
 - [ ] Publish pretrained models
 - [ ] Publish full dataset
-- [ ] Publish the long paper on Arxiv
 
 ## Stereo-LiDAR fusion
 
