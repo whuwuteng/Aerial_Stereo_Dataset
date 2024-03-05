@@ -48,6 +48,12 @@ All the training and testing data can be found on [Google Drive](https://drive.g
 
 This dataset is collected nearly same time with ISPRS-Vaihingen, the difference is that the resolution.
 
+## DublinCity 
+
+[DublinCity](https://v-sense.scss.tcd.ie/dublincity/) is an open dataset, the original aerial and LiDAR point cloud can be [downloaded](https://geo.nyu.edu/catalog/nyu-2451-38684), the origin dataset is very large.
+
+You can find the training and testing dataset from [another paper](https://openaccess.thecvf.com/content/CVPR2023W/PCV/html/Wu_PSMNet-FusionX3_LiDAR-Guided_Deep_Learning_Stereo_Dense_Matching_on_Aerial_Images_CVPRW_2023_paper.html). To save the disk, we do not upload this time, more information can be found on [Github](https://github.com/whuwuteng/PSMNet-FusionX3) also.
+
 ###  Method
 
 In the paper, we evaluate the state of the art methods of deep learning on stereo dense matching before 2020. 
