@@ -60,6 +60,10 @@ You can find the training and testing dataset from [another paper](https://opena
 
 In the paper, we evaluate the state of the art methods of deep learning on stereo dense matching before 2020. 
 
+#### SGM(GPU)
+
+This method is revised during the experiment, because the origin disparity range is too small, i.e **128**, in our experiment, **256** is used. The code can be found in [folder](sgm_cuda_256).
+
 ###  Pretrained models
 
 The pretrained models are important in the paper, so we will also share the pretrained models and training setting in the paper.
