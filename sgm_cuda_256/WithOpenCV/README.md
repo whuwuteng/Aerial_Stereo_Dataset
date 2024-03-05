@@ -1,36 +1,104 @@
-# Semi-Global Matching on the GPU in the paper
+# Semi-Global Matching on the GPU
 
-## Introduction
+This is the implementation of [Embedded real-time stereo estimation via Semi-Global Matching on the GPU](http://www.sciencedirect.com/science/article/pii/S1877050916306561), [D. Hernandez-Juarez](http://danihernandez.eu) et al, ICCS 2016.
 
-A GPU base SGM, use as a base-line method.<mark>The orginal code is clone from [origin code](https://github.com/dhernandez0/sgm).</mark> Because for the origin code, the disparity range is **128**, and this is too small for the application, so here we will provide the code with a disparity range is **256**.
+Performance obtained measured in Frames Per Second (FPS):
 
-## Update code for Cluster(CNES)
+|                 |     2 paths   |     4 paths   |     8 paths     |
+| -------------   |:-------------:|:-------------:|:---------------:|
+| NVIDIA Tegra X1 | 81            |    42         |     19          |
+| NVIDIA Titan X  | 886           |     475       |     237         |
 
-Because 
+Results for example image (left and right Images):
 
-### Dependency library
-1. remove the [OpenCV](https://opencv.org/) library.
-2. use [png++](https://www.nongnu.org/pngpp/).
+<img src="example/left/2.png" alt="Left Image" width="45%">
+<img src="example/right/2.png" alt="Right Image" width="45%">
 
-### Disparity range
-In the code, the **PATH_AGGREGATION** is 8 for defualt.
-From the vesion **1.0** to now, the **MAX_DISPARITY** is 256 now. 
+Results for example image (Output):
 
-From the code, the **WARP_SIZE** is 32(fixed). So for 32 thread, run one piexl, so that the batch size is **MAX_DISPARITY**/**WARP_SIZE**.
-Considering that if the **MAX_DISPARITY** is 256, the batch size is 8. Shortage is that batch size is 4 is more clear.
-The **Algorithm 3** is the main idea for the code, the parameters are shared in the 32 thread. 
+<img src="example/disparities/2.png" alt="Example output" width="100%">
 
-## TODO
-- [ ] check the label **recompute**
+Parameters used for KITTI 2015:
+- 2 path directions: P1=7, P2=84
+- 4 path directions: P1=7, P2=86
+- 8 path directions: P1=6, P2=96
 
-**recompute** means calculating the cost again, now **recompute** is not used in **DIR_LEFTRIGHT** and **DIR_RIGHTLEFT**.
-If so, the code can be much cleaner. (T *rp0, T *rp1, T *rp2, T *rp3, T *rp4, T *rp5, T *rp6, T *rp7) can be removed.
-The iterations in **DIR_LEFTRIGHT** and **DIR_RIGHTLEFT** can be removed.
 
-- [ ] make the code clean
+## How to compile and test
 
-- [ ] left-right check
+Simply use CMake and target the output directory as "build". In command line this would be (from the project root folder):
 
-## Feed Back
-If you think you have any problem, contact [Teng Wu]<Teng.Wu@ign.fr>
+```
+mkdir build
+cd build
+cmake ..
+make
+```
 
+Note: if this doesn't work for you, please modify CMakeLists.txt for your CUDA architecture!
+Example: for RTX 3080 add "-gencode=arch=compute_86,code=sm_86"
+
+
+## How to use it
+
+Type: `./sgm dir p1 p2`
+
+The arguments `p1` and `p2` are semi-global matching parameters, for more information read the SGM paper.
+
+`dir` is the name of the directory which needs this format:
+
+```
+dir
+---- left (images taken from the left camera)
+---- right (right camera)
+---- disparities (results will be here)
+```
+
+## Related Publications
+
+[Embedded real-time stereo estimation via Semi-Global Matching on the GPU](http://www.sciencedirect.com/science/article/pii/S1877050916306561)
+[D. Hernandez-Juarez](http://danihernandez.eu), A. Chacón, A. Espinosa, D. Vázquez, J. C. Moure, and A. M. López
+ICCS2016 – International Conference on Computational Science 2016
+
+## Requirements
+
+- OpenCV
+- CUDA
+- CMake
+
+## Limitations
+
+- Maximum disparity has to be 128
+- PATH_AGGREGATION parameter must be set to 4 or 8
+- Image width and height must be a divisible by 4
+
+## Troubleshooting
+
+- Very fast execution and black disparity result: 
+This is usually an error related to the compute architecture used. Look at the CMakeLists.txt and change the architecture to the one you are using, please. If you run the application with nvprof you will see that it does not run any CUDA kernel.
+
+## What to cite
+
+If you use this code for your research, please kindly cite:
+
+```
+@inproceedings{sgm_gpu_iccs2016,
+  author    = {Daniel Hernandez-Juarez and
+               Alejandro Chac{\'{o}}n and
+               Antonio Espinosa and
+               David V{\'{a}}zquez and
+               Juan Carlos Moure and
+               Antonio M. L{\'{o}}pez},
+  title     = {Embedded Real-time Stereo Estimation via Semi-Global Matching on the
+               {GPU}},
+  booktitle = {International Conference on Computational Science 2016, {ICCS} 2016,
+               6-8 June 2016, San Diego, California, {USA}},
+  pages     = {143--153},
+  year      = {2016},
+  crossref  = {DBLP:conf/iccS/2016},
+  url       = {http://dx.doi.org/10.1016/j.procs.2016.05.305},
+  doi       = {10.1016/j.procs.2016.05.305},
+  biburl    = {http://dblp.uni-trier.de/rec/bib/conf/iccS/JuarezCEVML16},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+```
