@@ -1,5 +1,9 @@
 # Semi-Global Matching on the GPU
 
+##  ** This is a revised version with the disparity range is 256 **
+
+## Origin document
+
 This is the implementation of [Embedded real-time stereo estimation via Semi-Global Matching on the GPU](http://www.sciencedirect.com/science/article/pii/S1877050916306561), [D. Hernandez-Juarez](http://danihernandez.eu) et al, ICCS 2016.
 
 Performance obtained measured in Frames Per Second (FPS):
