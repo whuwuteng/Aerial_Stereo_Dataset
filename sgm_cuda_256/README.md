@@ -4,17 +4,18 @@
 
 A GPU base SGM, use as a base-line method.<mark>The orginal code is clone from [origin code](https://github.com/dhernandez0/sgm).</mark> Because for the origin code, the disparity range is **128**, and this is too small for the application, so here we will provide the code with a disparity range is **256**.
 
+If you want to use the origin code setting (depends on OpenCV), we will try provide it. 
+
 ## Update code for Cluster(CNES)
 
-Because there is no OpenCV in the Cluster, and I do not want to install OpenCV(too big), so this code is modified with OpenCV files, so that the code doesn't depend on OpenCV.
+Because there is no [OpenCV](https://opencv.org/) in the Cluster, and I do not want to install OpenCV (too big, and no sudo), so this code is modified with OpenCV files, so that the code doesn't depend on OpenCV.
 
 ### Dependency library
-1. remove the [OpenCV](https://opencv.org/) library.
-2. use [png++](https://www.nongnu.org/pngpp/).
+1. remove the [OpenCV](https://opencv.org/) library, so all the needed OpenCV files are in [folder](opencv).
+2. use [png++](https://www.nongnu.org/pngpp/), this is used to read and write file.
 
 ### Disparity range
-In the code, the **PATH_AGGREGATION** is 8 for defualt.
-From the vesion **1.0** to now, the **MAX_DISPARITY** is 256 now. 
+In the code, the **PATH_AGGREGATION** is 8 for defualt,  and the **MAX_DISPARITY** is 256 now. 
 
 From the code, the **WARP_SIZE** is 32(fixed). So for 32 thread, run one piexl, so that the batch size is **MAX_DISPARITY**/**WARP_SIZE**.
 Considering that if the **MAX_DISPARITY** is 256, the batch size is 8. Shortage is that batch size is 4 is more clear.
