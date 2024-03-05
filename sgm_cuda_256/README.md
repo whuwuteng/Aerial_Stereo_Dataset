@@ -6,7 +6,7 @@ A GPU base SGM, use as a base-line method.<mark>The orginal code is clone from [
 
 ## Update code for Cluster(CNES)
 
-Because 
+Because there is no OpenCV in the Cluster, and I do not want to install OpenCV(too big), so this code is modified with OpenCV files, so that the code doesn't depend on OpenCV.
 
 ### Dependency library
 1. remove the [OpenCV](https://opencv.org/) library.
