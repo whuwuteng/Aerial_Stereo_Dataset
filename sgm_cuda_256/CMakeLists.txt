@@ -26,11 +26,12 @@ project(sgm)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 #find_package( OpenCV REQUIRED )
-find_package( CUDA REQUIRED )
+find_package(CUDA REQUIRED)
 find_package(PNG REQUIRED)
 
 include_directories(${PNG_INCLUDE_DIR})
 
+# because this depends on the GPU card
 # use cmake -DCMAKE_CUDA_FLAGS=”-arch=sm_50” ..
 #set(
 #    CUDA_NVCC_FLAGS
@@ -41,13 +42,15 @@ include_directories(${PNG_INCLUDE_DIR})
 #    )
 
 include_directories($ENV{HOME}/thirdparty)
-#MESSAGE(STATUS "$ENV{HOME}/thirdparty")
+MESSAGE(STATUS "$ENV{HOME}/thirdparty")
 include_directories(${CMAKE_CURRENT_LIST_DIR}/opencv)
 
 cuda_add_executable(
     sgm
     main.cu median_filter.cu hamming_cost.cu disparity_method.cu debug.cu costs.cu
     opencv/core.cpp opencv/cvstd.cpp opencv/imgproc.cpp)
+
+# do not use OpenCV
 #target_link_libraries( sgm ${OpenCV_LIBS} )
 #target_link_libraries(sgm Threads::Threads ${CMAKE_DL_LIBS})
 #target_link_libraries(sgm lpthread dl)

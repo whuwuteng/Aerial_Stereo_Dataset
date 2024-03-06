@@ -123,10 +123,14 @@ int main(int argc, char *argv[]) {
 		std::cerr << "Usage: cuda_sgm dir p1 p2 scale" << std::endl;
 		return -1;
 	}
-	/*if(MAX_DISPARITY != 128) {
-		std::cerr << "Due to implementation limitations MAX_DISPARITY must be 128" << std::endl;
+	if(MAX_DISPARITY != 128 &&  MAX_DISPARITY != 256) {
+		std::cerr << "Due to implementation limitations MAX_DISPARITY must be 128 or 256" << std::endl;
 		return -1;
-	}*/
+	}
+	else{
+		std::cout << "Rembere to change the MAX_DISPARITY_1 OCCLUDED_PIXEL MISMATCHED_PIXEL" << std::endl;
+	}
+
 	if(PATH_AGGREGATION != 4 && PATH_AGGREGATION != 8) {
         std::cerr << "Due to implementation limitations PATH_AGGREGATION must be 4 or 8" << std::endl;
         return -1;
@@ -142,9 +146,9 @@ int main(int argc, char *argv[]) {
 	struct dirent *ep;
 
 	// Directories
-	const char* left_dir = "colored_0";
+	const char* left_dir = "left";
 	const char* disparity_dir = "disparities";
-	const char* right_dir = "colored_1";
+	const char* right_dir = "right";
 	const char* gt_dir = "gt";
 
 	if(!check_directories_exist(directory, left_dir, right_dir, disparity_dir)) {
