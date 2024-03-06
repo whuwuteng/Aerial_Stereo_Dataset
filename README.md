@@ -23,14 +23,14 @@ For photogrammetry community, as far as we know, it is not easy to find these tr
 
 For each dataset, the global information of the dataset is listed follow:
 
-|     Dataset      | Color | GSD(cm) | LiDAR($pt/m^2$) |Origin orientation|ICP refined|Outlier remove|
-| :----------: | :-----------: | :-----------: | :-----------: |:-----------: | :----------: | :----------: |
-|ISPRS-Vaihingen|IR-R-G|      8      |      6.7      | &#10004; |`x`|`x`|
-|EuroSDR-Vaihingen|R-G-B|      20      |      6.7      | &#10004; |`x`|`x`|
-|Toulouse-UMBRA|R-G-B|      12.5      |      2-4      | `x` |&#9745;|&#9745;|
-|Toulouse-Métropole|R-G-B|      5      |      8     | &#10004; |`x`|`x`|
-|Enschede|R-G-B|      10      |      10      |`x` |&#9745;|&#9745;|
-|DublinCity|R-G-B|      3.4      |      250-348      |`x` |&#9745;|`x`|
+|     Dataset      | Color | GSD(cm) | LiDAR($pt/m^2$) |Origin orientation|ICP refined|Outlier remove| Difficulty|
+| :----------: | :-----------: | :-----------: | :-----------: |:-----------: | :----------: | :----------: | :----------: |
+|ISPRS-Vaihingen|IR-R-G|      8      |      6.7      | &#10004; |`x`|`x`|++|
+|EuroSDR-Vaihingen|R-G-B|      20      |      6.7      | &#10004; |`x`|`x`|++|
+|Toulouse-UMBRA|R-G-B|      12.5      |      2-4      | `x` |&#9745;|&#9745;|++++|
+|Toulouse-Métropole|R-G-B|      5      |      8     | &#10004; |`x`|`x`|+|
+|Enschede|R-G-B|      10      |      10      |`x` |&#9745;|&#9745;|+++|
+|DublinCity|R-G-B|      3.4      |      250-348      |`x` |&#9745;|`x`|++|
 
 In the table, the origin orientation accuracy  influence the data accuracy, in order to improve the quality of the dataset, an ICP based Image-LiDAR is proposed to refine the orientation. 
 
