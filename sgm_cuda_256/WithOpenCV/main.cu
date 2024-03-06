@@ -102,14 +102,17 @@ int main(int argc, char *argv[]) {
 		std::cerr << "Usage: cuda_sgm dir p1 p2" << std::endl;
 		return -1;
 	}
-	if(MAX_DISPARITY != 128) {
-		std::cerr << "Due to implementation limitations MAX_DISPARITY must be 128" << std::endl;
+	if(MAX_DISPARITY != 128 &&  MAX_DISPARITY != 256) {
+		std::cerr << "Due to implementation limitations MAX_DISPARITY must be 128 or 256" << std::endl;
 		return -1;
+	}
+	else{
+		std::cout << "Rembere to change the MAX_DISPARITY_1 OCCLUDED_PIXEL MISMATCHED_PIXEL" << std::endl;
 	}
 	if(PATH_AGGREGATION != 4 && PATH_AGGREGATION != 8) {
                 std::cerr << "Due to implementation limitations PATH_AGGREGATION must be 4 or 8" << std::endl;
                 return -1;
-        }
+    }
 	const char* directory = argv[1];
 	uint8_t p1, p2;
 	p1 = atoi(argv[2]);

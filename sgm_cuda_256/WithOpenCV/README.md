@@ -2,6 +2,16 @@
 
 ##  ** This is a revised version with the disparity range is 256 **
 
+In this version, [OpenCV](https://opencv.org/) is used, so the input and output can be the format support by OpenCV.
+
+For OpenCV, a certain version is not [support](https://stackoverflow.com/questions/74350584/nvcc-compilation-error-using-thrust-in-cuda-11-5), for me, I find that the version is **Cuda compilation tools, release 11.5, V11.5.119** and gcc/g++ **11** don't work.
+
+The code is test with **Cuda compilation tools, release 12.3, V12.3.107** and gcc/g++ **12**, an example is in :
+
+```
+./example.sh
+```
+
 ## Origin document
 
 This is the implementation of [Embedded real-time stereo estimation via Semi-Global Matching on the GPU](http://www.sciencedirect.com/science/article/pii/S1877050916306561), [D. Hernandez-Juarez](http://danihernandez.eu) et al, ICCS 2016.
