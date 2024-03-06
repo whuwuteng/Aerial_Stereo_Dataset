@@ -38,7 +38,7 @@ In the table, the origin orientation accuracy  influence the data accuracy, in o
 
 The training and evaluation dataset is also provided, the structure of the folder is same with the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021).
 
-Because the whole dataset is  too large, so only the used in the paper is uploaded.
+Because the whole dataset is  too large, so only the used in the paper is uploaded. The data will be hosted by [Zenodo](https://zenodo.org/), because the limitation is **50GB**, so the **dataset used** be in the paper and the **pre-trained models** are available on Zenodo. 
 
 ### ISPRS-Vaihingen
 
