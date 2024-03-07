@@ -42,7 +42,7 @@ Because the whole dataset is  too large, so only the used in the paper is upload
 
 ### ISPRS-Vaihingen
 
-All the training and testing data can be found on [Google Drive](https://drive.google.com/file/d/1Gcap1_p13QJoF7ShLP8sEBsSY1SNRgk4/view?usp=sharing), this is a newer version compare to the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021), the using origin image and LiDAR is same with [old version](https://github.com/whuwuteng/benchmark_ISPRS2021).
+All the training and testing data can be found on [Google Drive](https://drive.google.com/file/d/1Gcap1_p13QJoF7ShLP8sEBsSY1SNRgk4/view?usp=sharing), this is a newer version compare to the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021), the origin image and LiDAR used are same with [old version](https://github.com/whuwuteng/benchmark_ISPRS2021).
 
 ### EuroSDR-Vaihingen
 
@@ -132,27 +132,115 @@ The pretrained models are important in the paper, so we will also share the pret
 
 ### CBMV
 
+The pre-trained model for the **6** dataset are provide in CBMV_Model.zip :
+|     Model Name      | training data | images |
+| :----------: | :-----------: | :-----------: |
+| CBMV_model_ISPRS-Vaihingen.rf | ISPRS-Vaihingen  | 200 |
+| CBMV_model_EuroSDR-Vaihingen.rf | EuroSDR-Vaihingen | 200 |
+| CBMV_model_Toulouse-UMBRA.rf | Toulouse-UMBRA | 200 |
+| CBMV_model_Toulouse-Metropole.rf | Toulouse-Metropole | 200 |
+| CBMV_model_Enschede.rf | Enschede | 200 |
+| CBMV_model_DublinCity.rf | DublinCity | 200 |
+
 ### MC-CNN
+
+The pre-trained model for the **6** dataset are provide in MC-CNN_Model.zip, and a model trained on all the image :
+
+|     Model Name      | training data | images |
+| :----------: | :-----------: | :-----------: |
+| MC-CNN_model_ISPRS-Vaihingen.t7 | ISPRS-Vaihingen  | 1200 |
+| MC-CNN_model_EuroSDR-Vaihingen.t7 | EuroSDR-Vaihingen | 1200 |
+| MC-CNN_model_Toulouse-UMBRA.t7 | Toulouse-UMBRA | 1200 |
+| MC-CNN_model_Toulouse-Metropole.t7 | Toulouse-Metropole | 1200 |
+| MC-CNN_model_Enschede.t7 | Enschede | 1200 |
+| MC-CNN_model_DublinCity.t7 | DublinCity | 1200 |
+| MC-CNN_model_All.t7 | 6 dataset | 1200 |
 
 ### DeepFeature
 
+The pre-trained model for the **6** dataset are provide in DeepFeature_Model.zip, and a model trained on all the image :
+
+|     Model Name      | training data | images |
+| :----------: | :-----------: | :-----------: |
+| bn_meanvar_ISPRS-Vaihingen.t7 and param_ISPRS-Vaihingen.t7 | ISPRS-Vaihingen  | 1200 |
+| bn_meanvar_EuroSDR-Vaihingen.t7 and param_EuroSDR-Vaihingen.t7 | EuroSDR-Vaihingen  | images1200 |
+| bn_meanvar_Toulouse-UMBRA.t7 and param_Toulouse-UMBRA.t7 | Toulouse-UMBRA | 1200 |
+| bn_meanvar_Toulouse-Metropole.t7 and param_Toulouse-Metropole.t7 | Toulouse-Metropole | 1200 |
+| bn_meanvar_Enschede.t7 and param_Enschede.t7 | Enschede | 1200 |
+| bn_meanvar_DublinCity.t7 and param_DublinCity.t7 | DublinCity | 1200 |
+| bn_meanvar_all.t7 and param_all.t7 | 6 dataset | 1200 |
+
 ### PSM net
+
+The pre-trained model for the **6** dataset are provide in PSMNet_Model.zip, and a model trained on all the image :
+|     Model Name      | training data | images |
+| :----------: | :-----------: | :-----------: |
+| PSMNet_Model_ISPRS-Vaihingen.tar | ISPRS-Vaihingen  | 1200 |
+| PSMNet_Model_EuroSDR-Vaihingen.tar | EuroSDR-Vaihingen | 1200 |
+| PSMNet_Model_Toulouse-UMBRA.tar | Toulouse-UMBRA | 1200 |
+| PSMNet_Model_Toulouse-Metropole.tar | Toulouse-Metropole | 1200 |
+| PSMNet_Model_Enschede.tar | Enschede | 1200 |
+| PSMNet_Model_DublinCity.tar | DublinCity | 1200 |
+| PSMNet_Model_All.tar | 6 dataset | 1200 |
 
 ### HRS net
 
+The pre-trained model for the **6** dataset are provide in HRSNet_Model.zip, and a model trained on all the image :
+|     Model Name      | training data | images |
+| :----------: | :-----------: | :-----------: |
+| HRSNet_Model_ISPRS-Vaihingen.tar | ISPRS-Vaihingen  | 1200 |
+| HRSNet_Model_EuroSDR-Vaihingen.tar | EuroSDR-Vaihingen | 1200 |
+| HRSNet_Model_Toulouse-UMBRA.tar | Toulouse-UMBRA | 1200 |
+| HRSNet_Model_Toulouse-Metropole.tar | Toulouse-Metropole | 1200 |
+| HRSNet_Model_Enschede.tar | Enschede | 1200 |
+| HRSNet_Model_DublinCity.tar | DublinCity | 1200 |
+| HRSNet_Model_All.tar | 6 dataset | 1200 |
+
 ### DeepPruner
+
+The pre-trained model for the **6** dataset are provide in DeepPruner_Model.zip, and a model trained on all the image :
+|     Model Name      | training data | images |
+| :----------: | :-----------: | :-----------: |
+| DeepPruner_model_ISPRS-Vaihingen.tar | ISPRS-Vaihingen  | 1200 |
+| DeepPruner_model_EuroSDR-Vaihingen.tar | EuroSDR-Vaihingen | 1200 |
+| DeepPruner_model_Toulouse-UMBRA.tar | Toulouse-UMBRA | 1200 |
+| DeepPruner_model_Toulouse-Metropole.tar | Toulouse-Metropole | 1200 |
+| DeepPruner_model_Enschede.tar | Enschede | 1200 |
+| DeepPruner_model_DublinCity.tar | DublinCity | 1200 |
+| DeepPruner_model_All.tar | 6 dataset | 1200 |
 
 ### GANet
 
+The pre-trained model for the **6** dataset are provide in GANet_Model.zip, and a model trained on all the image :
+|     Model Name      | training data | images |
+| :----------: | :-----------: | :-----------: |
+| GANet_model_ISPRS-Vaihingen.pth | ISPRS-Vaihingen  | 1200 |
+| GANet_model_EuroSDR-Vaihingen.pth | EuroSDR-Vaihingen | 1200 |
+| GANet_model_Toulouse-UMBRA.pth | Toulouse-UMBRA | 1200 |
+| GANet_model_Toulouse-Metropole.pth | Toulouse-Metropole | 1200 |
+| GANet_model_Enschede.pth | Enschede | 1200 |
+| GANet_model_DublinCity.pth | DublinCity | 1200 |
+| GANet_model_All.pth | 6 dataset | 1200 |
+
 ### LEAStereo
 
+The pre-trained model for the **6** dataset are provide in LEAStereo_Model.zip, and a model trained on all the image :
+|     Model Name      | training data | images |
+| :----------: | :-----------: | :-----------: |
+| LEAStereo_model_ISPRS-Vaihingen.pth | ISPRS-Vaihingen  | 1200 |
+| LEAStereo_model_EuroSDR-Vaihingen.pth | EuroSDR-Vaihingen | 1200 |
+| LEAStereo_model_Toulouse-UMBRA.pth | Toulouse-UMBRA | 1200 |
+| LEAStereo_model_Toulouse-Metropole.pth | Toulouse-Metropole | 1200 |
+| LEAStereo_model_Enschede.pth | Enschede | 1200 |
+| LEAStereo_model_DublinCity.pth | DublinCity | 1200 |
+| LEAStereo_model_All.pth | 6 dataset | 1200 |
 
 ## TODO
 
 - [x] Image-LiDAR process
-- [ ] Publish dataset V1 (use in the paper)
+- [x] Publish dataset V1 (use in the paper)
 - [x] Publish the long paper on Arxiv
-- [ ] Publish pretrained models
+- [x] Publish pretrained models
 - [ ] Publish full dataset
 
 ## Stereo-LiDAR fusion
