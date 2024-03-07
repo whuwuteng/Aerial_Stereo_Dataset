@@ -52,9 +52,17 @@ This dataset is collected nearly same time with ISPRS-Vaihingen, the difference 
 
 This dataset is collected by IGN(French map agency) in **2012**, and the camera is produced by IGN, the origin image is **16bit**, this dataset is for remote sensing use, to make the training data, we use auto just. And in the experiment, we found that the image is quite different from other dataset. 
 
+| <img src="/figures/Toulouse_umbra.png" width="700" alt="*Origin Toulouse-UMBRA coverage*" /> |
+| :----------------------------------------------------------: |
+|                *Origin Toulouse-UMBRA coverage*                |
+
 ### Toulouse-Métropole
 
 This dataset is collect by [AI4GEO](http://ai4geo.eu/index.php) in **2019**, the camera is **UltraCam Osprey Prime M3**, and the LiDAR is **ALS70**. The origin dataset is too large, only the area same with the **Toulous-UMBRA** is used in the paper for produce the dataset.
+
+| <img src="/figures/Toulouse_metropole.png" width="700" alt="*Origin Toulouse-Métropole coverage*" /> |
+| :----------------------------------------------------------: |
+|                *Origin Toulouse-Métropole coverage*                |
 
 ### Enschede
 
