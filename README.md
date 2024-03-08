@@ -70,7 +70,7 @@ This dataset is collected by IGN(French map agency) in **2012**, and the camera 
 
 An example is show here :
 
-| <img src="/ Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0007_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/ Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0007_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/ Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0042_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/ Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0042_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/ Toulouse-UMBRA/colorbar.png" width="28"  height="160" alt="*Left image*" />|
+| <img src="/Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0007_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0007_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0042_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0042_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/Toulouse-UMBRA/colorbar.png" width="28"  height="160" alt="*Left image*" />|
 | :----------------------------------------------------------: |
 |                *Example for Toulouse-UMBRA*                |
 
