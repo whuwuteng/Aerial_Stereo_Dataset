@@ -108,7 +108,7 @@ An example is show here :
 
 | <img src="/DublinCity/3489_DUBLIN_AREA_2KM2_rgb_124885_id278c1_20150326120951_3489_DUBLIN_AREA_2KM2_rgb_124888_id281c1_20150326120954_0005_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/DublinCity/3489_DUBLIN_AREA_2KM2_rgb_124885_id278c1_20150326120951_3489_DUBLIN_AREA_2KM2_rgb_124888_id281c1_20150326120954_0005_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/DublinCity/3489_DUBLIN_AREA_2KM2_rgb_124791_id184c1_20150326120501_3489_DUBLIN_AREA_2KM2_rgb_124792_id185c1_20150326120502_0009_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/DublinCity/3489_DUBLIN_AREA_2KM2_rgb_124791_id184c1_20150326120501_3489_DUBLIN_AREA_2KM2_rgb_124792_id185c1_20150326120502_0009_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/DublinCity/colorbar.png" width="28"  height="160" alt="*Left image*" />|
 | :----------------------------------------------------------: |
-|                *Example for Enschede*                |
+|                *Example for DublinCity*                |
 
 ##  Method
 
