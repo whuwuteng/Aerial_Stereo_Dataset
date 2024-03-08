@@ -50,11 +50,15 @@ An example is show here :
 | :----------------------------------------------------------: |
 |                *Example for ISPRS-Vaihingen*                |
 
-
-
 ### EuroSDR-Vaihingen
 
 This dataset is collected nearly same time with ISPRS-Vaihingen, the difference is that the resolution, the dataset can be found [here](https://ifpwww.ifp.uni-stuttgart.de/ISPRS-EuroSDR/ImageMatching/default.aspx), because the LiDAR is from **ISPRS-Vaihingen**, so only a small part of the data is used.
+
+An example is show here :
+
+| <img src="/EuroSDR-Vaihingen/07_29_0003_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/EuroSDR-Vaihingen/07_29_0003_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/EuroSDR-Vaihingen/20_31_0003_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/EuroSDR-Vaihingen/20_31_0003_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/EuroSDR-Vaihingen/colorbar.png" width="28"  height="160" alt="*Left image*" />|
+| :----------------------------------------------------------: |
+|                *Example for EuroSDR-Vaihingen*                |
 
  ### Toulouse-UMBRA
 
@@ -64,6 +68,12 @@ This dataset is collected by IGN(French map agency) in **2012**, and the camera 
 | :----------------------------------------------------------: |
 |                *Origin Toulouse-UMBRA coverage*                |
 
+An example is show here :
+
+| <img src="/ Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0007_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/ Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0007_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/ Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0042_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/ Toulouse-UMBRA/ESS301_fx00004_00212_ESS301_fx00005_00195_0042_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/ Toulouse-UMBRA/colorbar.png" width="28"  height="160" alt="*Left image*" />|
+| :----------------------------------------------------------: |
+|                *Example for Toulouse-UMBRA*                |
+
 ### Toulouse-Métropole
 
 This dataset is collect by [AI4GEO](http://ai4geo.eu/index.php) in **2019**, the camera is **UltraCam Osprey Prime M3**, and the LiDAR is **ALS70**. The origin dataset is too large, only the area same with the **Toulous-UMBRA** is used in the paper for produce the dataset.
@@ -72,15 +82,33 @@ This dataset is collect by [AI4GEO](http://ai4geo.eu/index.php) in **2019**, the
 | :----------------------------------------------------------: |
 |                *Origin Toulouse-Métropole coverage*                |
 
+An example is show here :
+
+| <img src="/Toulouse-Metropole/21_14339_Lvl02-Color_21_14340_Lvl02-Color_0026_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/Toulouse-Metropole/21_14339_Lvl02-Color_21_14340_Lvl02-Color_0026_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/Toulouse-Metropole/24_14564_Lvl02-Color_24_14565_Lvl02-Color_0025_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/Toulouse-Metropole/24_14564_Lvl02-Color_24_14565_Lvl02-Color_0025_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/Toulouse-Metropole/colorbar.png" width="28"  height="160" alt="*Left image*" />|
+| :----------------------------------------------------------: |
+|                *Example for  Toulouse-Métropole*                |
+
 ### Enschede
 
 This dataset is a dataset collected from [ITC Faculty Geo-Information Science and Earth Observation](https://www.itc.nl/education/study-finder/geo-information-science-earth-observation/) in **2011**, the LiDAR is **AHN2** in **2012**. The origin device has **5** cameras, only the nadir camera is used in the experiment.
+
+An example is show here :
+
+| <img src="/Enschede/0021775_1_0021776_1_0009_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/Enschede/0021775_1_0021776_1_0009_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/Enschede/0021777_1_0021778_1_0007_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/Enschede/0021777_1_0021778_1_0007_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/Enschede/colorbar.png" width="28"  height="160" alt="*Left image*" />|
+| :----------------------------------------------------------: |
+|                *Example for Enschede*                |
 
 ### DublinCity 
 
 [DublinCity](https://v-sense.scss.tcd.ie/dublincity/) is an open dataset, the original aerial and LiDAR point cloud can be [downloaded](https://geo.nyu.edu/catalog/nyu-2451-38684), the origin dataset is very large.
 
 You can find the training and testing dataset from [another paper](https://openaccess.thecvf.com/content/CVPR2023W/PCV/html/Wu_PSMNet-FusionX3_LiDAR-Guided_Deep_Learning_Stereo_Dense_Matching_on_Aerial_Images_CVPRW_2023_paper.html). To save the disk, we do not upload this time, more information can be found on [Github](https://github.com/whuwuteng/PSMNet-FusionX3) also.
+
+An example is show here :
+
+| <img src="/DublinCity/3489_DUBLIN_AREA_2KM2_rgb_124885_id278c1_20150326120951_3489_DUBLIN_AREA_2KM2_rgb_124888_id281c1_20150326120954_0005_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/DublinCity/3489_DUBLIN_AREA_2KM2_rgb_124885_id278c1_20150326120951_3489_DUBLIN_AREA_2KM2_rgb_124888_id281c1_20150326120954_0005_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/DublinCity/3489_DUBLIN_AREA_2KM2_rgb_124791_id184c1_20150326120501_3489_DUBLIN_AREA_2KM2_rgb_124792_id185c1_20150326120502_0009_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/DublinCity/3489_DUBLIN_AREA_2KM2_rgb_124791_id184c1_20150326120501_3489_DUBLIN_AREA_2KM2_rgb_124792_id185c1_20150326120502_0009_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/DublinCity/colorbar.png" width="28"  height="160" alt="*Left image*" />|
+| :----------------------------------------------------------: |
+|                *Example for Enschede*                |
 
 ##  Method
 
