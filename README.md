@@ -46,7 +46,7 @@ All the training and testing data can be found on [Google Drive](https://drive.g
 
 An example is show here :
 
-| <img src="/ISPRS-Vaihingen/10030062_10030063_0014_left.png" width="200"  height="200" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/10030062_10030063_0014_show.png" width="200"  height="200" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/10250130_10250131_0001_left.png" width="200"  height="200" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/10250130_10250131_0001_show.png" width="200"  height="200" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/colorbar.png" width="10"  height="200" alt="*Left image*" />|
+| <img src="/ISPRS-Vaihingen/10030062_10030063_0014_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/10030062_10030063_0014_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/10250130_10250131_0001_left.png" width="160"  height="160" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/10250130_10250131_0001_show.png" width="160"  height="160" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/colorbar.png" width="28"  height="160" alt="*Left image*" />|
 | :----------------------------------------------------------: |
 |                *Example for ISPRS-Vaihingen*                |
 
