@@ -42,7 +42,11 @@ Because the whole dataset is  too large, so only the used in the paper is upload
 
 ### ISPRS-Vaihingen
 
-All the training and testing data can be found on [Google Drive](https://drive.google.com/file/d/1Gcap1_p13QJoF7ShLP8sEBsSY1SNRgk4/view?usp=sharing), this is a newer version compare to the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021), the origin image and LiDAR used are same with [old version](https://github.com/whuwuteng/benchmark_ISPRS2021).
+All the training and testing data can be found on [Google Drive](https://drive.google.com/file/d/1Gcap1_p13QJoF7ShLP8sEBsSY1SNRgk4/view?usp=sharing), this is a newer version compare to the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021), the origin image and LiDAR used are same with [old version](https://github.com/whuwuteng/benchmark_ISPRS2021). To visualize the data in GoogleEarth, we need know the projection system of the data, for Vaihingen data, the system is [**WGS 84 / UTM zone 32N**](https://epsg.io/32632).
+
+| <img src="/figures/ISPRS-Vaihingen.png" width="700" alt="*Origin Toulouse-UMBRA coverage*" /> |
+| :----------------------------------------------------------: |
+|                *Origin ISPRS-Vaihingen coverage*                |
 
 An example is show here :
 
