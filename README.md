@@ -44,6 +44,14 @@ Because the whole dataset is  too large, so only the used in the paper is upload
 
 All the training and testing data can be found on [Google Drive](https://drive.google.com/file/d/1Gcap1_p13QJoF7ShLP8sEBsSY1SNRgk4/view?usp=sharing), this is a newer version compare to the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021), the origin image and LiDAR used are same with [old version](https://github.com/whuwuteng/benchmark_ISPRS2021).
 
+An example is show here :
+
+| <img src="/ISPRS-Vaihingen/10030062_10030063_0014_left.png" width="700"  height="850" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/10030062_10030063_0014_show.png" width="700"  height="850" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/10250130_10250131_0001_left.png" width="700"  height="850" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/10250130_10250131_0001_show.png" width="700"  height="850" alt="*Left image*" /> <img src="/ISPRS-Vaihingen/colorbar.png" width="700"  height="850" alt="*Left image*" />|
+| :----------------------------------------------------------: |
+|                *Example for ISPRS-Vaihingen*                |
+
+
+
 ### EuroSDR-Vaihingen
 
 This dataset is collected nearly same time with ISPRS-Vaihingen, the difference is that the resolution, the dataset can be found [here](https://ifpwww.ifp.uni-stuttgart.de/ISPRS-EuroSDR/ImageMatching/default.aspx), because the LiDAR is from **ISPRS-Vaihingen**, so only a small part of the data is used.
@@ -241,7 +249,7 @@ The pre-trained model for the **6** dataset are provide in LEAStereo_Model.zip, 
 - [x] Publish dataset V1 (use in the paper)
 - [x] Publish the long paper on Arxiv
 - [x] Publish pretrained models
-- [ ] Publish full dataset
+- [ ] Publish full dataset (we don't have the host, the full dataset can be provided after required)
 
 ## Stereo-LiDAR fusion
 
