@@ -8,6 +8,8 @@ This is the Github repository for the stereo dense matching benchmark for [AI4GE
 
 In order to discuss the transferability of deep learning methods on aerial dataset, we produce **6** aerial dataset covers **4** different area. 
 
+## All the data and model can be found On [Zenodo](https://zenodo.org/records/10808947)
+
 ## History
 
 This work is an extension of our [previous work](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLIII-B2-2021/405/2021/), and the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021) dataset is already published. In the [ISPRS Conress 2022 in Nice](https://www.isprs2022-nice.com/), we presented an extension work  as a poster, and the [slide](congress_ISPRS2022/Slide_ISPRS2022.pdf) and the [poster](congress_ISPRS2022/Poster_ISPRS2022.pdf) is provided.
