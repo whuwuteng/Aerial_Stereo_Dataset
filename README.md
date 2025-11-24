@@ -8,7 +8,7 @@ This is the Github repository for the stereo dense matching benchmark for [AI4GE
 
 In order to discuss the transferability of deep learning methods on aerial dataset, we produce **6** aerial dataset covers **4** different area. 
 
-## All the data and model can be found On [Zenodo](https://zenodo.org/records/10808947)
+## All the data and model can be found On [Zenodo](https://zenodo.org/records/17700388)
 
 ## History
 
@@ -44,7 +44,7 @@ Because the whole dataset is  too large, so only the used in the paper is upload
 
 ### ISPRS-Vaihingen
 
-All the training and testing data can be found on [Google Drive](https://drive.google.com/file/d/1Gcap1_p13QJoF7ShLP8sEBsSY1SNRgk4/view?usp=sharing), this is a newer version compare to the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021), the origin image and LiDAR used are same with [old version](https://github.com/whuwuteng/benchmark_ISPRS2021). To visualize the data in GoogleEarth, we need know the projection system of the data, for Vaihingen data, the system is [**WGS 84 / UTM zone 32N**](https://epsg.io/32632).
+All the training and testing data can be found on  [Zenodo](https://zenodo.org/records/17700388), this is a newer version compare to the [old version](https://github.com/whuwuteng/benchmark_ISPRS2021), the origin image and LiDAR used are same with [old version](https://github.com/whuwuteng/benchmark_ISPRS2021). To visualize the data in GoogleEarth, we need know the projection system of the data, for Vaihingen data, the system is [**WGS 84 / UTM zone 32N**](https://epsg.io/32632).
 
 | <img src="/figures/ISPRS-Vaihingen.png" width="700" alt="*Origin  ISPRS-Vaihingen coverage*" /> |
 | :----------------------------------------------------------: |
